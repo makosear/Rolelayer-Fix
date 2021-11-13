@@ -118,23 +118,6 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 	return true;
 });
 
-async function getCharacterProfile(character) {
-	character = await normalizeCharacterName(character);
-	const key = `profile_${character}`;
-
-	const cache = await SettingStorage.get(key);
-	if (cache && key in cache) return cache[key];
-
-	const request = await fetch(
-		`https://r-drrp.appspot.com/characters/${character}/profile.json`
-	);
-	const profile = await request.json();
-
-	await SettingStorage.set({ [key]: profile });
-
-	return profile;
-}
-
 function install() {
 	const getOption = (first, defecto) => (first != null ? first : defecto);
 
