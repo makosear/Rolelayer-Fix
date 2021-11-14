@@ -102,7 +102,7 @@
          "run_at": "document_end"
       }
    ],
-   "description": "RP focused helper plugin to add images and format comments on Reddit.",
+   "description": "A fix for the current rolelayer extension.",
    "icons": {
       "128": "icon-128.png",
       "16": "icon-16.png",
@@ -111,7 +111,7 @@
       "96": "icon-96.png"
    },
    "manifest_version": 2,
-   "name": "RoleLayer",
+   "name": "Mako's RoleLayer Fix",
    "options_ui": {
       "chrome_style": true,
       "page": "options.html"
