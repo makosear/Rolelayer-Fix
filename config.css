@@ -1,1 +1,15 @@
-body{font-size:12px;font-family:Segoe UI, Helvetica, Arial, sans-serif}body section{-webkit-padding-start:18px;margin-bottom:24px;margin-top:8px;max-width:600px}body section>h3{-webkit-margin-start:-18px;margin-bottom:0.1em}
+body{
+    font-size:12px;
+    font-family:Segoe UI, Helvetica, Arial, sans-serif
+}
+body section{
+    -webkit-padding-start:18px;
+    margin-bottom:24px;
+    margin-top:8px;
+    max-width:600px
+}
+body section>h3{
+    -webkit-margin-start:-18px;
+    margin-bottom:0.1em
+}
+ 
