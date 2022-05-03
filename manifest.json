@@ -106,7 +106,6 @@
   "manifest_version": 3,
   "name": "Mako's RoleLayer Fix",
   "options_ui": {
-    "chrome_style": true,
     "page": "options.html"
   },
   "version": "0.7.13",
