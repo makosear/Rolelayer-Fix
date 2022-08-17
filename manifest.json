@@ -1,125 +1,129 @@
 {
-
-   "permissions": [
-      "http://*/",
+    "permissions": [
       "storage"
     ],
+    "update_url": "https://clients2.google.com/service/update2/crx",
+   
+    "background": {
+    "service_worker": "service.js",
+    "type": "module"
+    },
 
-"update_url": "https://clients2.google.com/service/update2/crx",
-
-   "background": {
-      "persistent": false,
-      "scripts": [
-         "settingstorage.js",
-         "background.js"
-      ]
-   },
-   "content_scripts": [
+    "content_scripts": [
       {
-         "css": [
-            "common.css"
-         ],
-         "js": [
-            "classnames.js",
-            "format.js"
-         ],
-         "matches": [
-            "*://*.reddit.com/message/*",
-            "*://*.reddit.com/user/*",
-            "*://*.reddit.com/r/DanganRonpa/comments/*",
-            "*://*.reddit.com/r/Danganronpa/comments/*",
-            "*://*.reddit.com/r/danganronpa/comments/*",
-            "*://*.reddit.com/r/DanganRoleplay/comments/*",
-            "*://*.reddit.com/r/Danganroleplay/comments/*",
-            "*://*.reddit.com/r/danganroleplay/comments/*",
-            "*://*.reddit.com/r/DRRPSpriteTester/comments/*",
-            "*://*.reddit.com/r/vlnq/comments/*"
-         ],
-         "run_at": "document_start"
+        "css": [
+          "common.css"
+        ],
+        "js": [
+          "classnames.js",
+          "format.js"
+        ],
+        "matches": [
+          "*://*.reddit.com/message/*",
+          "*://*.reddit.com/user/*",
+          "*://*.reddit.com/r/DanganRonpa/comments/*",
+          "*://*.reddit.com/r/Danganronpa/comments/*",
+          "*://*.reddit.com/r/danganronpa/comments/*",
+          "*://*.reddit.com/r/DanganRoleplay/comments/*",
+          "*://*.reddit.com/r/Danganroleplay/comments/*",
+          "*://*.reddit.com/r/danganroleplay/comments/*",
+          "*://*.reddit.com/r/DRRPSpriteTester/comments/*",
+          "*://*.reddit.com/r/vlnq/comments/*"
+        ],
+        "run_at": "document_start"
       },
       {
-         "css": [
-            "danganroleplay_all.css"
-         ],
-         "js": [
-            "settingstorage.js",
-            "settingapplication.js"
-         ],
-         "matches": [
-            "*://*.reddit.com/r/DanganRoleplay/*",
-            "*://*.reddit.com/r/Danganroleplay/*",
-            "*://*.reddit.com/r/danganroleplay/*",
-            "*://*.reddit.com/r/DRRPSpriteTester/*",
-            "*://*.reddit.com/r/vlnq/*"
-         ],
-         "run_at": "document_start"
+        "css": [
+          "danganroleplay_all.css"
+        ],
+        "js": [
+          "settingstorage.js",
+          "settingapplication.js"
+        ],
+        "matches": [
+          "*://*.reddit.com/r/DanganRoleplay/*",
+          "*://*.reddit.com/r/Danganroleplay/*",
+          "*://*.reddit.com/r/danganroleplay/*",
+          "*://*.reddit.com/r/DRRPSpriteTester/*",
+          "*://*.reddit.com/r/vlnq/*"
+        ],
+        "run_at": "document_start"
       },
       {
-         "css": [
-            "danganroleplay_comments.css"
-         ],
-         "js": [
-            "constants.js",
-            "constants_roleplay.js",
-            "core.js",
-            "participants.js",
-            "format-tagline.js",
-            "format-comments.js",
-            "spritemenu.js",
-            "mentionmenu.js",
-            "bulletmenu.js",
-            "youtubeplayer.js"
-         ],
-         "matches": [
-            "*://*.reddit.com/r/DanganRoleplay/comments/*",
-            "*://*.reddit.com/r/Danganroleplay/comments/*",
-            "*://*.reddit.com/r/danganroleplay/comments/*",
-            "*://*.reddit.com/r/DRRPSpriteTester/comments/*",
-            "*://*.reddit.com/r/vlnq/comments/*"
-         ],
-         "run_at": "document_end"
+        "css": [
+          "danganroleplay_comments.css"
+        ],
+        "js": [
+          "constants.js",
+          "constants_roleplay.js",
+          "core.js",
+          "participants.js",
+          "format-tagline.js",
+          "format-comments.js",
+          "spritemenu.js",
+          "mentionmenu.js",
+          "bulletmenu.js",
+          "youtubeplayer.js"
+        ],
+        "matches": [
+          "*://*.reddit.com/r/DanganRoleplay/comments/*",
+          "*://*.reddit.com/r/Danganroleplay/comments/*",
+          "*://*.reddit.com/r/danganroleplay/comments/*",
+          "*://*.reddit.com/r/DRRPSpriteTester/comments/*",
+          "*://*.reddit.com/r/vlnq/comments/*"
+        ],
+        "run_at": "document_end"
       },
       {
-         "css": [
-            "danganronpa.css"
-         ],
-         "js": [
-            "constants.js",
-            "constants_ronpa.js",
-            "core.js",
-            "participants.js",
-            "format-tagline.js",
-            "spritemenu.js",
-            "mentionmenu.js",
-            "bulletmenu.js",
-            "youtubeplayer.js"
-         ],
-         "matches": [
-            "*://*.reddit.com/r/DanganRonpa/comments/*",
-            "*://*.reddit.com/r/Danganronpa/comments/*",
-            "*://*.reddit.com/r/danganronpa/comments/*"
-         ],
-         "run_at": "document_end"
+        "css": [
+          "danganronpa.css"
+        ],
+        "js": [
+          "constants.js",
+          "constants_ronpa.js",
+          "core.js",
+          "participants.js",
+          "format-tagline.js",
+          "spritemenu.js",
+          "mentionmenu.js",
+          "bulletmenu.js",
+          "youtubeplayer.js"
+        ],
+        "matches": [
+          "*://*.reddit.com/r/DanganRonpa/comments/*",
+          "*://*.reddit.com/r/Danganronpa/comments/*",
+          "*://*.reddit.com/r/danganronpa/comments/*"
+        ],
+        "run_at": "document_end"
       }
-   ],
-   "description": "RP focused helper plugin to add images and format comments on Reddit.",
-   "icons": {
+    ],
+    "description": "A fix for the current rolelayer extension.",
+    "icons": {
       "128": "icon-128.png",
       "16": "icon-16.png",
       "48": "icon-48.png",
       "64": "icon-64.png",
       "96": "icon-96.png"
-   },
-   "manifest_version": 2,
-   "name": "RoleLayer",
-   "options_ui": {
-      "chrome_style": true,
+    },
+    "manifest_version": 3,
+    "name": "Mako's RoleLayer Fix",
+    "options_ui": {
       "page": "options.html"
-   },
-
-   "version": "0.7.13",
-   "web_accessible_resources": [
-      "icon-*.png",
-      "settings.png"
-   ]
-}
+    },
+    "version": "0.7.14",
+    "web_accessible_resources": [
+      {
+        "resources": [
+          "icon-*.png",
+          "settings.png"
+        ],
+        "matches": [
+          "<all_urls>"
+        ]
+      }
+    ],
+    "content_security_policy": {},
+    "host_permissions": [
+      "http://*/"
+    ]
+  }

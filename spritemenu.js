@@ -56,7 +56,8 @@
 
 			img.className = "loading rl-sprite";
 			img.onload = removeLoadingGif;
-			img.src = src.real;
+			//img.src = src.real;
+			img.src = src.permalink;
 			img.dataset.src = src.permalink;
 
 			fragment.appendChild(img);
