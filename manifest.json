@@ -27,6 +27,9 @@
           "*://*.reddit.com/r/DanganRoleplay/comments/*",
           "*://*.reddit.com/r/Danganroleplay/comments/*",
           "*://*.reddit.com/r/danganroleplay/comments/*",
+          "*://*.reddit.com/r/DanganRoleplayBrasil/comments/*",
+          "*://*.reddit.com/r/danganroleplaybrasil/comments/*",
+          "*://*.reddit.com/r/Danganroleplaybrasil/comments/*",
           "*://*.reddit.com/r/DRRPSpriteTester/comments/*",
           "*://*.reddit.com/r/vlnq/comments/*"
         ],
