@@ -1867,6 +1867,7 @@
       
       "rantaro": [
       "https://ik.imagekit.io/drrp/sprites/rantaro/00.png#sprite",
+      { "src": "https://ik.imagekit.io/drrp/sprites/akane/00.png#sprite", "is-original": false},
       "https://ik.imagekit.io/drrp/sprites/rantaro/01.png#sprite",
       "https://ik.imagekit.io/drrp/sprites/rantaro/02.png#sprite",
       "https://ik.imagekit.io/drrp/sprites/rantaro/03.png#sprite",

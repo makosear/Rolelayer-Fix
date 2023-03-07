@@ -75,37 +75,90 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 		default:
 			return false;
 	}
-
+/*
 	async function sendSpritesBack(list) {
-		const promises = []
-			.concat(list)
-			.filter(Boolean)
-			.map(async sprite => {
-				const src = await resolveSpriteUrl(sprite);
-				return src ? { permalink: sprite, real: src } : null;
-			});
-
+		const promises = list.map(async sprite => {
+		  if (typeof sprite === 'string') {
+			const src = await resolveSpriteUrl(sprite);
+			return src ? { permalink: sprite, real: src } : null;
+		  } else if (typeof sprite === 'object' && sprite.src && typeof sprite.src === 'string') {
+			const src = await resolveSpriteUrl(sprite.src);
+			return src ? { permalink: sprite.src, real: src } : null;
+		  } else {
+			return null;
+		  }
+		});
+	  
 		const sprites = await Promise.all(promises);
 		return sprites.filter(Boolean);
-	}
+	  }
+*/
+	  async function sendSpritesBack(list) {
+		const promises = list.map(async sprite => {
+		  if (typeof sprite === 'string') {
+			const src = await resolveSpriteUrl(sprite);
+			return src ? { permalink: sprite, real: src, isOriginal: true} : null;
+		  } else if (typeof sprite === 'object' && sprite.src && typeof sprite.src === 'string') {
+			const src = await resolveSpriteUrl(sprite.src);
+			//return src ? { permalink: sprite.src, real: src, isOriginal: sprite['is-original'] || false } : null;
+			return src ? { permalink: sprite.src, real: src, isOriginal: false } : null;
+		  } else {
+			return null;
+		  }
+		});
+	  
+		const sprites = await Promise.all(promises);
+		return sprites.filter(Boolean);
+	  }
+	  
 
+	  
+
+	/*
 	function resolveSpriteUrl(uri) {
-		const url = new URL(uri);
+		//const url = typeof uri === 'string' ? new URL(uri) : new URL(uri.src);
+		const url = typeof uri === 'object' && uri.src ? new URL(uri.src) : new URL(uri);
 		const key = url.pathname.replace("characters/", "");
-
+	  
 		return localStorageGet(key)
-			.catch(function(err) {
-				return fetch(uri, {
-					mode: "cors"
-				}).then(function(response) {
-					//localStorage.setItem(key, response.url);
-					//chrome.storage.local.set({'key': key, 'url': response.url})
-					chrome.storage.local.set({'key': response.url})
-					return response.url;
-				});
-			})
-			.then(uri => uri + url.hash, err => null);
-	} 
+		  .catch(function(err) {
+			return fetch(uri, {
+			  mode: "cors"
+			}).then(function(response) {
+			  chrome.storage.local.set({ key: response.url });
+			  return response.url;
+			});
+		  })
+		  .then(uri => uri + url.hash, err => null);
+	  }*/
+	  
+	  function resolveSpriteUrl(uri) {
+		let url;
+		if (typeof uri === 'string') {
+		  url = new URL(uri);
+		} else if (typeof uri === 'object' && uri.src && typeof uri.src === 'string') {
+		  url = new URL(uri.src);
+		} else {
+		  return Promise.resolve(null);
+		}
+	  
+		const key = url.pathname.replace("characters/", "");
+	  
+		return localStorageGet(key)
+		  .catch(function(err) {
+			return fetch(uri, {
+			  mode: "cors"
+			}).then(function(response) {
+			  chrome.storage.local.set({ key: response.url });
+			  return response.url;
+			});
+		  })
+		  .then(uri => uri + url.hash, err => null);
+	  }
+	  
+	  
+	  
+	  
 
 	return true;
 });

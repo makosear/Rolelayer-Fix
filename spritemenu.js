@@ -53,18 +53,58 @@
 
 		for (let src of sprites) {
 			let img = new Image();
-
+		  
 			img.className = "loading rl-sprite";
 			img.onload = removeLoadingGif;
-			//img.src = src.real;
 			img.src = src.permalink;
 			img.dataset.src = src.permalink;
-
+			img.dataset.isOriginal = src.isOriginal;
+		  
 			fragment.appendChild(img);
-		}
-
+		  }
 		container.querySelector(".body").appendChild(fragment);
 		container.classList.add("visible");
+
+		const checking = document.querySelector(".toggle-label");
+		checking.classList.add("rlvisible");
+
+		const checkingtwo = document.querySelector (".labeling");
+		checkingtwo.classList.add("rlvisible");
+
+		// add checkbox
+		/*
+		const toggleLabel = document.createElement("label");
+		toggleLabel.textContent = "Toggle Original";
+		toggleLabel.className = "toggle-label";
+		container.querySelector(".title").appendChild(toggleLabel);
+
+		const toggleCheckbox = document.createElement("input");
+		toggleCheckbox.type = "checkbox";
+		toggleCheckbox.className = "toggle-checkbox";
+		toggleLabel.insertBefore(toggleCheckbox, toggleLabel.firstChild);
+
+		const toggleSlider = document.createElement("div");
+		toggleSlider.className = "slider round";
+		toggleLabel.insertBefore(toggleSlider, toggleLabel.children[2]);
+*/
+
+		const checkbox = document.querySelector(".toggle-checkbox"); // select checkbox element with class name .toggle-checkbox
+		checkbox.addEventListener("change", function () {
+		  const images = document.querySelectorAll(".rl-sprite");
+		  if (this.checked) {
+		    images.forEach(function (img) {
+		      if (img.dataset.isOriginal === "false") {
+		        img.classList.add("hide");
+		      }
+		    });
+		  } else {
+		    images.forEach(function (img) {
+		      img.classList.remove("hide");
+		    });
+		  }
+		});
+
+
 	}
 
 	document

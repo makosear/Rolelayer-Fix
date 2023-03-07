@@ -48,13 +48,45 @@
 		tag.textContent = "";
 		section.appendChild(tag);
 
+		
 		tag = document.createElement("span");
 		tag.className = "self character";
 		section.appendChild(tag);
-
+		
 		tag = document.createElement("span");
 		tag.className = "self username";
 		section.appendChild(tag);
+
+		tag = document.createElement("span");
+		tag.className = "labeling";
+		tag.textContent = "Toggle Fanmade Sprites OFF";
+		section.appendChild(tag);
+
+		tag = document.createElement("label");
+		tag.textContent = "Toggle Original";
+		tag.className = "toggle-label";
+		
+		let toggleCheckbox = document.createElement("input");
+		toggleCheckbox.type = "checkbox";
+		toggleCheckbox.className = "toggle-checkbox";
+		
+		tag.appendChild(toggleCheckbox); // Append input element to the label
+
+		let toggleSlider = document.createElement("div");
+		toggleSlider.className = "slider round";
+
+		tag.appendChild(toggleSlider);
+		
+		section.appendChild(tag);
+
+		/* const toggleCheckbox = document.createElement("input");
+		toggleCheckbox.type = "checkbox";
+		toggleCheckbox.className = "toggle-checkbox";
+		toggleLabel.insertBefore(toggleCheckbox, toggleLabel.firstChild);
+
+		const toggleSlider = document.createElement("div");
+		toggleSlider.className = "slider round";
+		toggleLabel.insertBefore(toggleSlider, toggleLabel.children[2]);*/
 
 		// BODY
 		section = document.createElement("div");
@@ -240,7 +272,14 @@
 			value: function() {
 				document.querySelector(".rl-modal").classList.remove("expanded");
 				document.querySelector(".rl-modal").classList.remove("visible");
-			}
+				//document.querySelector(".toggle-label").classList.remove("rlvisible");
+				const toggleLabel = document.querySelector(".toggle-label");
+				toggleLabel.classList.remove("rlvisible");
+				const labeling = document.querySelector(".labeling");
+				labeling.classList.remove("rlvisible");
+				const toggleCheckbox = document.querySelector(".toggle-checkbox");
+				toggleCheckbox.checked = false;
+				}
 		},
 		getThreadSource: {
 			writable: false,
