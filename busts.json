@@ -96,12 +96,12 @@
       "https://abimon.org/dr/busts/byakuya/12.png#sprite",
       "https://abimon.org/dr/busts/byakuya/13.png#sprite",
       "https://abimon.org/dr/busts/byakuya/14.png#sprite",
-      "https://abimon.org/dr/busts/byakuya/15.png#sprite",
-      "https://abimon.org/dr/busts/byakuya/16.png#sprite",
-      "https://abimon.org/dr/busts/byakuya/17.png#sprite",
-      "https://abimon.org/dr/busts/byakuya/18.png#sprite",
-      "https://i.imgur.com/oCvxtiN.png#sprite",
-      "https://68.media.tumblr.com/c7b42b27aaa0ef64012f956007ccd450/tumblr_n1qj7d9PoV1rnveloo1_500.png#sprite"
+      { "src": "https://abimon.org/dr/busts/byakuya/15.png#sprite", "is-original": false},
+{ "src": "https://abimon.org/dr/busts/byakuya/16.png#sprite", "is-original": false},
+{ "src": "https://abimon.org/dr/busts/byakuya/17.png#sprite", "is-original": false},
+{ "src": "https://abimon.org/dr/busts/byakuya/18.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/oCvxtiN.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/c7b42b27aaa0ef64012f956007ccd450/tumblr_n1qj7d9PoV1rnveloo1_500.png#sprite", "is-original": false}
     ],
     "celes": [
       "https://abimon.org/dr/busts/celeste/00.png#sprite",
@@ -121,7 +121,7 @@
       "https://abimon.org/dr/busts/celeste/14.png#sprite",
       "https://abimon.org/dr/busts/celeste/15.png#sprite",
       "https://abimon.org/dr/busts/celeste/16.png#sprite",
-      "https://i.imgur.com/Gp84dFJ.png#sprite"
+      { "src": "https://i.imgur.com/Gp84dFJ.png#sprite", "is-original": false}
     ],
     "chiaki": [
       "https://abimon.org/dr/busts/chiaki/00.png#sprite",
@@ -145,13 +145,13 @@
       "https://abimon.org/dr/busts/chiaki/19.png#sprite",
       "https://abimon.org/dr/busts/chiaki/20.png#sprite",
       "https://abimon.org/dr/busts/chiaki/22.png#sprite",
-      "https://68.media.tumblr.com/349f7753f0e92696a42749ad41e473cf/tumblr_mzrs6ojzbK1sbetdio4_500.png#sprite",
-      "https://68.media.tumblr.com/28180aac983468734a67be359755fd2b/tumblr_mu7t23Vm3H1rx7mvno1_r3_500.png#sprite",
-      "https://68.media.tumblr.com/6f44c9493df7a34d3a91e240c345b186/tumblr_mu7t23Vm3H1rx7mvno2_500.png#sprite",
-      "https://66.media.tumblr.com/6b4fb29fddd11c5787bdc9e68445ae6f/tumblr_mu7t23Vm3H1rx7mvno3_500.png#sprite",
-      "https://66.media.tumblr.com/c4d1c52b065c89d320152de4a1563c72/tumblr_mu7t23Vm3H1rx7mvno4_500.png#sprite",
-      "https://68.media.tumblr.com/0f251f1902832f59146c48273f317611/tumblr_mu7t23Vm3H1rx7mvno5_500.png#sprite",
-      "https://66.media.tumblr.com/6dcfaa6fe3f645dc2c1ca2107b1e2ed0/tumblr_mqeouwM0Xb1ql9bpco1_500.png#sprite",
+      { "src": "https://68.media.tumblr.com/349f7753f0e92696a42749ad41e473cf/tumblr_mzrs6ojzbK1sbetdio4_500.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/28180aac983468734a67be359755fd2b/tumblr_mu7t23Vm3H1rx7mvno1_r3_500.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/6f44c9493df7a34d3a91e240c345b186/tumblr_mu7t23Vm3H1rx7mvno2_500.png#sprite", "is-original": false},
+{ "src": "https://66.media.tumblr.com/6b4fb29fddd11c5787bdc9e68445ae6f/tumblr_mu7t23Vm3H1rx7mvno3_500.png#sprite", "is-original": false},
+{ "src": "https://66.media.tumblr.com/c4d1c52b065c89d320152de4a1563c72/tumblr_mu7t23Vm3H1rx7mvno4_500.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/0f251f1902832f59146c48273f317611/tumblr_mu7t23Vm3H1rx7mvno5_500.png#sprite", "is-original": false},
+{ "src": "https://66.media.tumblr.com/6dcfaa6fe3f645dc2c1ca2107b1e2ed0/tumblr_mqeouwM0Xb1ql9bpco1_500.png#sprite", "is-original": false},
       "https://abimon.org/dr/busts/chiaki/07.png#sprite",
       "https://abimon.org/dr/busts/chiaki/21.png#sprite"
     ],
@@ -172,10 +172,10 @@
       "https://abimon.org/dr/busts/chihiro/13.png#sprite",
       "https://abimon.org/dr/busts/chihiro/14.png#sprite",
       "https://abimon.org/dr/busts/chihiro/15.png#sprite",
-      "https://i.imgur.com/KylwxkI.png#sprite",
-      "https://i.imgur.com/ABzpLUo.png#sprite",
-      "https://66.media.tumblr.com/c51512b0e9d1d77bf9ba831522719070/tumblr_mlq8fqNINq1qj5drwo1_500.png#sprite",
-      "https://68.media.tumblr.com/c09036742a364014257f6de8ecacdb0b/tumblr_inline_mwskx29yd11ra5gv7.png#sprite"
+      { "src": "https://i.imgur.com/KylwxkI.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/ABzpLUo.png#sprite", "is-original": false},
+{ "src": "https://66.media.tumblr.com/c51512b0e9d1d77bf9ba831522719070/tumblr_mlq8fqNINq1qj5drwo1_500.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/c09036742a364014257f6de8ecacdb0b/tumblr_inline_mwskx29yd11ra5gv7.png#sprite", "is-original": false}
     ],
     "fuyuhiko_nopatch": [
       "https://abimon.org/dr/busts/fuyuhiko/00.png#sprite",
@@ -253,11 +253,11 @@
       "https://abimon.org/dr/busts/gundham/24.png#sprite",
       "https://abimon.org/dr/busts/gundham/25.png#sprite",
       "https://abimon.org/dr/busts/gundham/26.png#sprite",
-      "https://66.media.tumblr.com/259cf77bf754b6f20390822277d11501/tumblr_mtlvc6rvPN1rqz0j7o1_500.png#sprite",
-      "https://40.media.tumblr.com/56c7141e346fcdd44ff8f1c19a2e70aa/tumblr_inline_nuya00Q7GS1td1six_540.png#sprite",
-      "https://68.media.tumblr.com/d363bafc8a8a28fc41a2c2547c5eb031/tumblr_mqej6gjibB1ql9bpco6_500.png#sprite",
-      "https://68.media.tumblr.com/b6254c3e633c783b2918946bdc3fc382/tumblr_mtks56mGe01rrrdkmo1_500.png#sprite",
-      "https://i.imgur.com/f7kw6Go.png#sprite"
+      { "src": "https://66.media.tumblr.com/259cf77bf754b6f20390822277d11501/tumblr_mtlvc6rvPN1rqz0j7o1_500.png#sprite", "is-original": false},
+{ "src": "https://40.media.tumblr.com/56c7141e346fcdd44ff8f1c19a2e70aa/tumblr_inline_nuya00Q7GS1td1six_540.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/d363bafc8a8a28fc41a2c2547c5eb031/tumblr_mqej6gjibB1ql9bpco6_500.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/b6254c3e633c783b2918946bdc3fc382/tumblr_mtks56mGe01rrrdkmo1_500.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/f7kw6Go.png#sprite", "is-original": false}
     ],
     "hajime": [
       "https://abimon.org/dr/busts/hajime/00.png#sprite",
@@ -285,23 +285,23 @@
       "https://abimon.org/dr/busts/hajime/22.png#sprite",
       "https://abimon.org/dr/busts/hajime/26.png#sprite",
       "https://abimon.org/dr/busts/hajime/29.png#sprite",
-      "https://40.media.tumblr.com/d7b51023d2c86c0fbdb21f3baa6f104d/tumblr_mrnvfkiQxq1sq98pyo5_500.png#sprite",
-      "https://68.media.tumblr.com/ec233fe39275957ccd0713234c97cdc4/tumblr_inline_o6q5b0DTbU1qzytu7_540.png#sprite",
-      "https://40.media.tumblr.com/7db593289c8fa27850c618acf308fb65/tumblr_mrnvfkiQxq1sq98pyo4_500.png#sprite",
-      "https://68.media.tumblr.com/0a4b942f84271ab43c8f2a28056c46ee/tumblr_mzrs6ojzbK1sbetdio2_500.png#sprite",
-      "https://66.media.tumblr.com/e839865a658bd7d3dac12ae2d54b6d35/tumblr_mvalyaC2sF1sbetdio1_500.png#sprite",
-      "https://66.media.tumblr.com/e02c91b671421dbb4be4fae6602a04ed/tumblr_muzmcijfZk1shb00ao1_500.png#sprite",
-      "https://66.media.tumblr.com/c4d6b8bbe9dc2a2208223202fced441c/tumblr_o8fs4qK3TT1qzzczko1_500.png#sprite",
-      "https://68.media.tumblr.com/75a07de4f2eb6c1ee41bf4b6a414de11/tumblr_n4z8ebCEGr1qkgd66o1_r2_500.png#sprite",
-      "https://66.media.tumblr.com/54a307ca437c38d566ecfed39fc9b9b7/tumblr_n4z8ebCEGr1qkgd66o2_r3_500.png#sprite",
-      "https://68.media.tumblr.com/ba00d59a7d1206f478de3ef12c5d9372/tumblr_ocr8geHfoU1vxw2pbo1_1280.png#sprite",
-      "https://68.media.tumblr.com/3e7ca344c5c2322189c41614cddee211/tumblr_ocr8geHfoU1vxw2pbo2_r1_1280.png#sprite",
-      "https://66.media.tumblr.com/9d0c3af4ae0330748b466cf865ccc608/tumblr_ocr8geHfoU1vxw2pbo3_r1_1280.png#sprite",
-      "https://68.media.tumblr.com/913525aa1d242a341b8ffd37c3bfc172/tumblr_ocr8geHfoU1vxw2pbo4_r1_1280.png#sprite",
-      "https://68.media.tumblr.com/80c0da942043a0918fa7172da053ee7a/tumblr_ocr8geHfoU1vxw2pbo5_r1_1280.png#sprite",
-      "https://66.media.tumblr.com/590bd3b472f2282b7f007bc54d5f15ac/tumblr_ocr8geHfoU1vxw2pbo6_r1_1280.png#sprite",
-      "https://68.media.tumblr.com/eb2f20c269ac3b1433095f5c93e9f8f6/tumblr_ocr8geHfoU1vxw2pbo7_r1_1280.png#sprite",
-      "https://68.media.tumblr.com/ba205cf3ea8a82fd42a9db69070a06da/tumblr_inline_mwskhzZO781ra5gv7.png#sprite"
+      { "src": "https://40.media.tumblr.com/d7b51023d2c86c0fbdb21f3baa6f104d/tumblr_mrnvfkiQxq1sq98pyo5_500.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/ec233fe39275957ccd0713234c97cdc4/tumblr_inline_o6q5b0DTbU1qzytu7_540.png#sprite", "is-original": false},
+{ "src": "https://40.media.tumblr.com/7db593289c8fa27850c618acf308fb65/tumblr_mrnvfkiQxq1sq98pyo4_500.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/0a4b942f84271ab43c8f2a28056c46ee/tumblr_mzrs6ojzbK1sbetdio2_500.png#sprite", "is-original": false},
+{ "src": "https://66.media.tumblr.com/e839865a658bd7d3dac12ae2d54b6d35/tumblr_mvalyaC2sF1sbetdio1_500.png#sprite", "is-original": false},
+{ "src": "https://66.media.tumblr.com/e02c91b671421dbb4be4fae6602a04ed/tumblr_muzmcijfZk1shb00ao1_500.png#sprite", "is-original": false},
+{ "src": "https://66.media.tumblr.com/c4d6b8bbe9dc2a2208223202fced441c/tumblr_o8fs4qK3TT1qzzczko1_500.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/75a07de4f2eb6c1ee41bf4b6a414de11/tumblr_n4z8ebCEGr1qkgd66o1_r2_500.png#sprite", "is-original": false},
+{ "src": "https://66.media.tumblr.com/54a307ca437c38d566ecfed39fc9b9b7/tumblr_n4z8ebCEGr1qkgd66o2_r3_500.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/ba00d59a7d1206f478de3ef12c5d9372/tumblr_ocr8geHfoU1vxw2pbo1_1280.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/3e7ca344c5c2322189c41614cddee211/tumblr_ocr8geHfoU1vxw2pbo2_r1_1280.png#sprite", "is-original": false},
+{ "src": "https://66.media.tumblr.com/9d0c3af4ae0330748b466cf865ccc608/tumblr_ocr8geHfoU1vxw2pbo3_r1_1280.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/913525aa1d242a341b8ffd37c3bfc172/tumblr_ocr8geHfoU1vxw2pbo4_r1_1280.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/80c0da942043a0918fa7172da053ee7a/tumblr_ocr8geHfoU1vxw2pbo5_r1_1280.png#sprite", "is-original": false},
+{ "src": "https://66.media.tumblr.com/590bd3b472f2282b7f007bc54d5f15ac/tumblr_ocr8geHfoU1vxw2pbo6_r1_1280.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/eb2f20c269ac3b1433095f5c93e9f8f6/tumblr_ocr8geHfoU1vxw2pbo7_r1_1280.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/ba205cf3ea8a82fd42a9db69070a06da/tumblr_inline_mwskhzZO781ra5gv7.png#sprite", "is-original": false}
     ],
     "hajime_saiyan": [
       "https://abimon.org/dr/busts/hajime/23.png#sprite",
@@ -333,8 +333,8 @@
       "https://abimon.org/dr/busts/hifumi/19.png#sprite",
       "https://abimon.org/dr/busts/hifumi/20.png#sprite",
       "https://abimon.org/dr/busts/hifumi/21.png#sprite",
-      "https://66.media.tumblr.com/4e3f33be42bc90ac88d2f27102e0ebf4/tumblr_mp8yivArf91rrrdkmo1_500.png#sprite",
-      "https://i.imgur.com/XTFjWWB.png#sprite"
+      { "src": "https://66.media.tumblr.com/4e3f33be42bc90ac88d2f27102e0ebf4/tumblr_mp8yivArf91rrrdkmo1_500.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/XTFjWWB.png#sprite", "is-original": false}
     ],
     "hiyoko": [
       "https://abimon.org/dr/busts/hiyoko/00.png#sprite",
@@ -361,10 +361,10 @@
       "https://abimon.org/dr/busts/hiyoko/21.png#sprite",
       "https://abimon.org/dr/busts/hiyoko/22.png#sprite",
       "https://abimon.org/dr/busts/hiyoko/23.png#sprite",
-      "https://66.media.tumblr.com/15899bf3fa42c06037da3db09a2c8b18/tumblr_mqeouwM0Xb1ql9bpco3_500.png#sprite",
-      "https://i.imgur.com/NOnZNfV.png#sprite",
-      "https://68.media.tumblr.com/0f99a5ce27c071db38974fe95ec1c479/tumblr_o8oht4BUsz1vxw2pbo1_500.png#sprite",
-      "http://68.media.tumblr.com/79714af169da13cd25ba0e238a729be7/tumblr_mv526pdm811slkb7wo2_500.png#sprite"
+      { "src": "https://66.media.tumblr.com/15899bf3fa42c06037da3db09a2c8b18/tumblr_mqeouwM0Xb1ql9bpco3_500.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/NOnZNfV.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/0f99a5ce27c071db38974fe95ec1c479/tumblr_o8oht4BUsz1vxw2pbo1_500.png#sprite", "is-original": false},
+{ "src": "http://68.media.tumblr.com/79714af169da13cd25ba0e238a729be7/tumblr_mv526pdm811slkb7wo2_500.png#sprite", "is-original": false}
     ],
     "ibuki": [
       "https://abimon.org/dr/busts/ibuki/00.png#sprite",
@@ -389,12 +389,12 @@
       "https://abimon.org/dr/busts/ibuki/19.png#sprite",
       "https://abimon.org/dr/busts/ibuki/20.png#sprite",
       "https://abimon.org/dr/busts/ibuki/21.png#sprite",
-      "https://38.media.tumblr.com/764d89de0145ded4a69e8552f567e26b/tumblr_inline_o4h7q90F2B1qzytu7_540.png#sprite",
-      "https://40.media.tumblr.com/f18736d1824e9a7b1bd7cd76a17ce5b7/tumblr_inline_o4h7q5TGO21qzytu7_540.png#sprite",
-      "https://68.media.tumblr.com/e99a6b086f54e2710d6c44d13e9d3774/tumblr_mqej6gjibB1ql9bpco3_500.png#sprite",
-      "https://68.media.tumblr.com/1afbdd8807606ae37bf55a0f49c45ee9/tumblr_mq82ghjr3x1r5gji4o1_500.png#sprite",
-      "https://68.media.tumblr.com/95e3a8e73f39082c2f96ef8b8544fa7d/tumblr_inline_o7hwfaYlTB1qzytu7_540.png#sprite",
-      "https://66.media.tumblr.com/ed9649a8bbebfb639efadf5be482384f/tumblr_inline_oaa4l6c9ct1qzytu7_540.png#sprite"
+      { "src": "https://38.media.tumblr.com/764d89de0145ded4a69e8552f567e26b/tumblr_inline_o4h7q90F2B1qzytu7_540.png#sprite", "is-original": false},
+{ "src": "https://40.media.tumblr.com/f18736d1824e9a7b1bd7cd76a17ce5b7/tumblr_inline_o4h7q5TGO21qzytu7_540.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/e99a6b086f54e2710d6c44d13e9d3774/tumblr_mqej6gjibB1ql9bpco3_500.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/1afbdd8807606ae37bf55a0f49c45ee9/tumblr_mq82ghjr3x1r5gji4o1_500.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/95e3a8e73f39082c2f96ef8b8544fa7d/tumblr_inline_o7hwfaYlTB1qzytu7_540.png#sprite", "is-original": false},
+{ "src": "https://66.media.tumblr.com/ed9649a8bbebfb639efadf5be482384f/tumblr_inline_oaa4l6c9ct1qzytu7_540.png#sprite", "is-original": false}
     ],
     "imposter": [
       "https://abimon.org/dr/busts/twogami/00.png#sprite",
@@ -412,11 +412,11 @@
       "https://abimon.org/dr/busts/twogami/12.png#sprite",
       "https://abimon.org/dr/busts/twogami/13.png#sprite",
       "https://abimon.org/dr/busts/twogami/14.png#sprite",
-      "https://i.imgur.com/ljk26YD.png#sprite",
-      "https://68.media.tumblr.com/84e07fbc526a7d686720c5429c5eee51/tumblr_mtuaho7oXk1rrrdkmo1_500.png#sprite",
-      "https://68.media.tumblr.com/5fb89af9f5e95980bf0f7e955f89169e/tumblr_mtuaho7oXk1rrrdkmo3_500.png#sprite",
-      "https://66.media.tumblr.com/032c9e3c5c0bf915ad153ecb57835b88/tumblr_mtuaho7oXk1rrrdkmo5_500.png#sprite",
-      "https://66.media.tumblr.com/6d89b24ffc42d6b5d68175601236f60e/tumblr_mtuaho7oXk1rrrdkmo7_500.png#sprite"
+      { "src": "https://i.imgur.com/ljk26YD.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/84e07fbc526a7d686720c5429c5eee51/tumblr_mtuaho7oXk1rrrdkmo1_500.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/5fb89af9f5e95980bf0f7e955f89169e/tumblr_mtuaho7oXk1rrrdkmo3_500.png#sprite", "is-original": false},
+{ "src": "https://66.media.tumblr.com/032c9e3c5c0bf915ad153ecb57835b88/tumblr_mtuaho7oXk1rrrdkmo5_500.png#sprite", "is-original": false},
+{ "src": "https://66.media.tumblr.com/6d89b24ffc42d6b5d68175601236f60e/tumblr_mtuaho7oXk1rrrdkmo7_500.png#sprite", "is-original": false}
     ],
     "ishida": [
       "https://abimon.org/dr/busts/kiyotaka/19.png#sprite",
@@ -441,7 +441,7 @@
       "https://i.imgur.com/FYlJNVv.png#sprite",
       "https://i.imgur.com/OJcDEEW.png#sprite",
       "https://i.imgur.com/N9jjttd.png#sprite",
-      "https://66.media.tumblr.com/3188bf111a3f1bf1201743bf86f35949/tumblr_ndxgio7RQB1taphvqo2_500.png#sprite"
+      { "src": "https://66.media.tumblr.com/3188bf111a3f1bf1201743bf86f35949/tumblr_ndxgio7RQB1taphvqo2_500.png#sprite", "is-original": false}
     ],
     "junko": [
       "https://abimon.org/dr/busts/junko/00.png#sprite",
@@ -504,37 +504,37 @@
       "https://abimon.org/dr/busts/kazuichi/22.png#sprite",
       "https://abimon.org/dr/busts/kazuichi/23.png#sprite",
       "https://abimon.org/dr/busts/kazuichi/24.png#sprite",
-      "https://68.media.tumblr.com/980c9da575891e5eb50b480c99eba949/tumblr_n1hc6lWqnj1qj3yuuo1_400.png#sprite",
-      "https://68.media.tumblr.com/42467011b8e9727a5ffe4cbabb4d4c65/tumblr_o9d205ymDT1vxw2pbo1_1280.png#sprite",
-      "https://66.media.tumblr.com/72117e707349cace08111a1809369191/tumblr_o9d205ymDT1vxw2pbo2_1280.png#sprite",
-      "https://i.imgur.com/omUmWn6.png#sprite",
-      "https://i.imgur.com/B7Vpj78.png#sprite",
-      "https://i.imgur.com/g5Oml7U.png#sprite",
-      "https://i.imgur.com/4vlFWsi.png#sprite",
-      "https://i.imgur.com/GXJdx6R.png#sprite",
-      "https://i.imgur.com/vpZ1kaf.png#sprite",
-      "https://i.imgur.com/6fZ6yrA.png#sprite",
-      "https://i.imgur.com/NBHK6oa.png#sprite",
-      "https://i.imgur.com/Hv2ohIr.png#sprite",
-      "https://i.imgur.com/UcBcOmT.png#sprite",
-      "https://i.imgur.com/LsEUCed.png#sprite",
-      "https://i.imgur.com/kPugTES.png#sprite",
-      "https://i.imgur.com/mqRFpvL.png#sprite",
-      "https://i.imgur.com/rukcxGp.png#sprite",
-      "https://i.imgur.com/2Fdu02N.png#sprite",
-      "https://i.imgur.com/7jWlEys.png#sprite",
-      "https://i.imgur.com/q2nat4D.png#sprite",
-      "https://i.imgur.com/wJF8P9K.png#sprite",
-      "https://i.imgur.com/mzw0fBf.png#sprite",
-      "https://i.imgur.com/MKfzbDA.png#sprite",
-      "https://i.imgur.com/eVkRlXv.png#sprite",
-      "https://i.imgur.com/cU5XMzU.png#sprite",
-      "https://i.imgur.com/4XPmHNy.png#sprite",
-      "https://i.imgur.com/IEBxJ63.png#sprite",
-      "https://i.imgur.com/kRUAGrC.png#sprite",
-      "https://i.imgur.com/qQDWHoS.png#sprite",
-      "https://i.imgur.com/bmGDCsf.png#sprite",
-      "https://68.media.tumblr.com/cefdfc51c616b51dc9ca4f55332bfc7f/tumblr_n1gqtwu15Q1rnveloo1_500.png#sprite"
+      { "src": "https://68.media.tumblr.com/980c9da575891e5eb50b480c99eba949/tumblr_n1hc6lWqnj1qj3yuuo1_400.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/42467011b8e9727a5ffe4cbabb4d4c65/tumblr_o9d205ymDT1vxw2pbo1_1280.png#sprite", "is-original": false},
+{ "src": "https://66.media.tumblr.com/72117e707349cace08111a1809369191/tumblr_o9d205ymDT1vxw2pbo2_1280.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/omUmWn6.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/B7Vpj78.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/g5Oml7U.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/4vlFWsi.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/GXJdx6R.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/vpZ1kaf.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/6fZ6yrA.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/NBHK6oa.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/Hv2ohIr.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/UcBcOmT.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/LsEUCed.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/kPugTES.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/mqRFpvL.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/rukcxGp.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/2Fdu02N.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/7jWlEys.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/q2nat4D.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/wJF8P9K.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/mzw0fBf.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/MKfzbDA.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/eVkRlXv.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/cU5XMzU.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/4XPmHNy.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/IEBxJ63.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/kRUAGrC.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/qQDWHoS.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/bmGDCsf.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/cefdfc51c616b51dc9ca4f55332bfc7f/tumblr_n1gqtwu15Q1rnveloo1_500.png#sprite", "is-original": false}
     ],
     "kiyotaka": [
       "https://abimon.org/dr/busts/kiyotaka/00.png#sprite",
@@ -557,14 +557,14 @@
       "https://abimon.org/dr/busts/kiyotaka/17.png#sprite",
       "https://abimon.org/dr/busts/kiyotaka/18.png#sprite",
       "https://abimon.org/dr/busts/kiyotaka/22.png#sprite",
-      "https://abimon.org/dr/busts/kiyotaka/23.png#sprite",
-      "https://66.media.tumblr.com/47f7165c8918f0d23561a1f32e9fb731/tumblr_inline_o79frmbrUJ1qzytu7_540.png#sprite",
-      "https://38.media.tumblr.com/39f0d1a6b1761646127eccff2d3cbe7c/tumblr_inline_o2keaakCXj1sj4iq1_500.png#sprite",
-      "https://40.media.tumblr.com/c85653cea85d36300aa77d9996a1bed0/tumblr_inline_o2kbziIf5u1sj4iq1_500.png#sprite",
-      "https://38.media.tumblr.com/5b465294faca4ca9f7171f4eabb257a8/tumblr_inline_o2khyo5GAg1sj4iq1_500.png#sprite",
-      "https://40.media.tumblr.com/acc95f241f72c749d26f518c381ca04c/tumblr_inline_o2ke8vvbrM1sj4iq1_500.png#sprite",
-      "https://40.media.tumblr.com/f743677ca1ed65c48a1d095cea323fd3/tumblr_inline_o2kifkBpiV1sj4iq1_500.png#sprite",
-      "https://40.media.tumblr.com/36a4eaf9cd9aaffbd2c164357d085a14/tumblr_inline_o4zszxwsPv1qzytu7_540.png#sprite"
+      { "src": "https://abimon.org/dr/busts/kiyotaka/23.png#sprite", "is-original": false},
+{ "src": "https://66.media.tumblr.com/47f7165c8918f0d23561a1f32e9fb731/tumblr_inline_o79frmbrUJ1qzytu7_540.png#sprite", "is-original": false},
+{ "src": "https://38.media.tumblr.com/39f0d1a6b1761646127eccff2d3cbe7c/tumblr_inline_o2keaakCXj1sj4iq1_500.png#sprite", "is-original": false},
+{ "src": "https://40.media.tumblr.com/c85653cea85d36300aa77d9996a1bed0/tumblr_inline_o2kbziIf5u1sj4iq1_500.png#sprite", "is-original": false},
+{ "src": "https://38.media.tumblr.com/5b465294faca4ca9f7171f4eabb257a8/tumblr_inline_o2khyo5GAg1sj4iq1_500.png#sprite", "is-original": false},
+{ "src": "https://40.media.tumblr.com/acc95f241f72c749d26f518c381ca04c/tumblr_inline_o2ke8vvbrM1sj4iq1_500.png#sprite", "is-original": false},
+{ "src": "https://40.media.tumblr.com/f743677ca1ed65c48a1d095cea323fd3/tumblr_inline_o2kifkBpiV1sj4iq1_500.png#sprite", "is-original": false},
+{ "src": "https://40.media.tumblr.com/36a4eaf9cd9aaffbd2c164357d085a14/tumblr_inline_o4zszxwsPv1qzytu7_540.png#sprite", "is-original": false}
     ],
     "komaru": [
       "https://ik.imagekit.io/drrp/sprites/komaru/00.png#sprite",
@@ -682,8 +682,8 @@
       "https://abimon.org/dr/busts/kyoko/17.png#sprite",
       "https://abimon.org/dr/busts/kyoko/18.png#sprite",
       "https://abimon.org/dr/busts/kyoko/19.png#sprite",
-      "https://i.imgur.com/DUSIYwl.png#sprite",
-      "https://i.imgur.com/d1NsGrI.png#sprite"
+      { "src": "https://i.imgur.com/DUSIYwl.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/d1NsGrI.png#sprite", "is-original": false}
     ],
     "leon": [
       "https://abimon.org/dr/busts/leon/00.png#sprite",
@@ -726,7 +726,7 @@
       "https://abimon.org/dr/busts/mahiru/19.png#sprite",
       "https://abimon.org/dr/busts/mahiru/20.png#sprite",
       "https://66.media.tumblr.com/93902fa38d96c224bf9f0ef794ceadc9/tumblr_mqej6gjibB1ql9bpco2_500.png#sprite",
-      "https://i.imgur.com/8Qxou7j.png#sprite"
+      { "src": "https://i.imgur.com/8Qxou7j.png#sprite", "is-original": false}
     ],
     "makoto": [
       "https://ik.imagekit.io/drrp/sprites/makoto/00.png",
@@ -752,8 +752,8 @@
       "https://ik.imagekit.io/drrp/sprites/makoto/20.png",
       "https://ik.imagekit.io/drrp/sprites/makoto/21.png",
       "https://ik.imagekit.io/drrp/sprites/makoto/22.png",
-      "https://ik.imagekit.io/drrp/sprites/makoto/23.png",
-      "https://ik.imagekit.io/drrp/sprites/makoto/24.png"
+      { "src": "https://ik.imagekit.io/drrp/sprites/makoto/23.png", "is-original": false},
+{ "src": "https://ik.imagekit.io/drrp/sprites/makoto/24.png", "is-original": false}
     ],
     "masaru": [
       "https://i.imgur.com/ZGfvSel.png#sprite",
@@ -852,19 +852,19 @@
       "https://abimon.org/dr/busts/mondo/15_us.png#sprite",
       "https://abimon.org/dr/busts/mondo/16.png#sprite",
       "https://abimon.org/dr/busts/mondo/17.png#sprite",
-      "https://40.media.tumblr.com/00a11ab74f609abefce2edccfed16b23/tumblr_inline_o2me19yo9H1sj4iq1_500.png#sprite",
-      "https://40.media.tumblr.com/2e01b8036d4d15aad18efd1a7ace916e/tumblr_inline_nzfonaUZW31sj4iq1_500.png#sprite",
-      "https://40.media.tumblr.com/84563542850117883fd4ad295fdfe5b2/tumblr_inline_o2kfnxuUCX1sj4iq1_500.png#sprite",
-      "https://68.media.tumblr.com/5d8d55d66b35b9f070f01cc8d4474ebc/tumblr_mkc7vwEOXh1re9oq6o3_500.png#sprite",
-      "https://68.media.tumblr.com/a42002d776fb8e47d49b6705ee522c90/tumblr_mkc7vwEOXh1re9oq6o7_r2_500.png#sprite",
-      "https://68.media.tumblr.com/2c45d9855e1f1eda15a1e02714be6a28/tumblr_mkc7vwEOXh1re9oq6o6_r1_500.png#sprite",
-      "https://68.media.tumblr.com/8ed1e2c8de6bedfa3069272e7a83f699/tumblr_mkc7vwEOXh1re9oq6o1_500.png#sprite",
-      "https://66.media.tumblr.com/f57df2506eef7913cf841bb5d53ca990/tumblr_mkc7vwEOXh1re9oq6o5_500.png#sprite",
-      "https://66.media.tumblr.com/1234fb40fa247fa11dd71574d0432566/tumblr_mkc7vwEOXh1re9oq6o4_500.png#sprite",
-      "https://66.media.tumblr.com/c80c2be6d43da8e52b0388da1f7b7655/tumblr_mkc7vwEOXh1re9oq6o2_500.png#sprite",
-      "https://i.imgur.com/AzNmX1b.png#sprite",
-      "https://68.media.tumblr.com/0792e777ed050bd04572e1f57e27cc01/tumblr_n0pcgnRYXs1rnveloo1_500.png#sprite",
-      "https://68.media.tumblr.com/e47ace9b94055cedcf7f764305e5617f/tumblr_n4clvpA6fd1rnveloo2_500.png#sprite"
+      { "src": "https://40.media.tumblr.com/00a11ab74f609abefce2edccfed16b23/tumblr_inline_o2me19yo9H1sj4iq1_500.png#sprite", "is-original": false},
+{ "src": "https://40.media.tumblr.com/2e01b8036d4d15aad18efd1a7ace916e/tumblr_inline_nzfonaUZW31sj4iq1_500.png#sprite", "is-original": false},
+{ "src": "https://40.media.tumblr.com/84563542850117883fd4ad295fdfe5b2/tumblr_inline_o2kfnxuUCX1sj4iq1_500.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/5d8d55d66b35b9f070f01cc8d4474ebc/tumblr_mkc7vwEOXh1re9oq6o3_500.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/a42002d776fb8e47d49b6705ee522c90/tumblr_mkc7vwEOXh1re9oq6o7_r2_500.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/2c45d9855e1f1eda15a1e02714be6a28/tumblr_mkc7vwEOXh1re9oq6o6_r1_500.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/8ed1e2c8de6bedfa3069272e7a83f699/tumblr_mkc7vwEOXh1re9oq6o1_500.png#sprite", "is-original": false},
+{ "src": "https://66.media.tumblr.com/f57df2506eef7913cf841bb5d53ca990/tumblr_mkc7vwEOXh1re9oq6o5_500.png#sprite", "is-original": false},
+{ "src": "https://66.media.tumblr.com/1234fb40fa247fa11dd71574d0432566/tumblr_mkc7vwEOXh1re9oq6o4_500.png#sprite", "is-original": false},
+{ "src": "https://66.media.tumblr.com/c80c2be6d43da8e52b0388da1f7b7655/tumblr_mkc7vwEOXh1re9oq6o2_500.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/AzNmX1b.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/0792e777ed050bd04572e1f57e27cc01/tumblr_n0pcgnRYXs1rnveloo1_500.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/e47ace9b94055cedcf7f764305e5617f/tumblr_n4clvpA6fd1rnveloo2_500.png#sprite", "is-original": false}
     ],
     "monokuma": [
       "https://abimon.org/dr/busts/monokuma/00.png#sprite",
@@ -1048,24 +1048,24 @@
       "https://abimon.org/dr/busts/nagito/26.png#sprite",
       "https://abimon.org/dr/busts/nagito/27.png#sprite",
       "https://abimon.org/dr/busts/nagito/28.png#sprite",
-      "https://66.media.tumblr.com/bc67476a52fefb1bb7e5289d7369ece4/tumblr_ocbwwmtw2s1vxw2pbo2_1280.png#sprite",
-      "https://68.media.tumblr.com/f69a4aa2617b6a0907fef756bbc5fa86/tumblr_ocbwwmtw2s1vxw2pbo3_1280.png#sprite",
-      "https://66.media.tumblr.com/067defd3e46e7aa5e6118dc927420e91/tumblr_ocbwwmtw2s1vxw2pbo1_1280.png#sprite",
-      "https://66.media.tumblr.com/40096bff860745c2b6e4b5f59184894c/tumblr_mqudefKXYj1s7nvhyo1_500.gif#sprite",
-      "https://68.media.tumblr.com/035af4714eefc34a0d425bde8a408ad4/tumblr_mt4z6dCCDD1sbetdio2_500.png#sprite",
-      "https://66.media.tumblr.com/8f0f28d8e0b91ba1425b8f05818e8759/tumblr_msiuq5rpel1swgw57o1_500.png#sprite",
-      "https://68.media.tumblr.com/c1ea459939d1d777e0ab19884a176c52/tumblr_monqox3E8l1r0iaydo4_500.png#sprite",
-      "https://40.media.tumblr.com/568a23987ddf69aad71b897c3419c025/tumblr_inline_nrzf2sy3PN1two1y3_500.png#sprite",
-      "https://40.media.tumblr.com/7965eaa343c134ca02deaf90930909c1/tumblr_inline_o2hse10dp21tmkdg1_500.png#sprite",
-      "https://68.media.tumblr.com/6b90236eec63d7d2bbd6b9a7700cfaaf/tumblr_mv9cg6brWl1sbetdio1_500.png#sprite",
-      "https://66.media.tumblr.com/72890612351fc08a8e0ba406c09e604f/tumblr_o8aax0LuVL1qzzczko1_1280.png#sprite",
-      "https://38.media.tumblr.com/4f2f0bb327d2da7a2870b559e9609973/tumblr_inline_mjs08cVz3C1qz4rgp.png#sprite",
-      "https://68.media.tumblr.com/3b9125af8181432152bed0e656b9df7e/tumblr_mzrs6ojzbK1sbetdio3_500.png#sprite",
-      "https://68.media.tumblr.com/d326926bfe49ba1ce812da9351320161/tumblr_n147k540dy1t5dv4do2_r1_500.png#sprite",
-      "https://68.media.tumblr.com/bf1d427befd2e2d82ffe92b21c4e9d70/tumblr_msb8w8EvLw1sh1nwco1_500.png#sprite",
-      "https://68.media.tumblr.com/f40c16d8a86728bf71059164d7b83cb5/tumblr_mqeouwM0Xb1ql9bpco2_500.png#sprite",
-      "https://i.imgur.com/ZkytnCf.png#sprite",
-      "https://68.media.tumblr.com/0dd71c2feb1cbcfc7e44807875b9eb9e/tumblr_inline_mwsky24ESb1ra5gv7.png#sprite"
+      { "src": "https://66.media.tumblr.com/bc67476a52fefb1bb7e5289d7369ece4/tumblr_ocbwwmtw2s1vxw2pbo2_1280.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/f69a4aa2617b6a0907fef756bbc5fa86/tumblr_ocbwwmtw2s1vxw2pbo3_1280.png#sprite", "is-original": false},
+{ "src": "https://66.media.tumblr.com/067defd3e46e7aa5e6118dc927420e91/tumblr_ocbwwmtw2s1vxw2pbo1_1280.png#sprite", "is-original": false},
+{ "src": "https://66.media.tumblr.com/40096bff860745c2b6e4b5f59184894c/tumblr_mqudefKXYj1s7nvhyo1_500.gif#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/035af4714eefc34a0d425bde8a408ad4/tumblr_mt4z6dCCDD1sbetdio2_500.png#sprite", "is-original": false},
+{ "src": "https://66.media.tumblr.com/8f0f28d8e0b91ba1425b8f05818e8759/tumblr_msiuq5rpel1swgw57o1_500.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/c1ea459939d1d777e0ab19884a176c52/tumblr_monqox3E8l1r0iaydo4_500.png#sprite", "is-original": false},
+{ "src": "https://40.media.tumblr.com/568a23987ddf69aad71b897c3419c025/tumblr_inline_nrzf2sy3PN1two1y3_500.png#sprite", "is-original": false},
+{ "src": "https://40.media.tumblr.com/7965eaa343c134ca02deaf90930909c1/tumblr_inline_o2hse10dp21tmkdg1_500.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/6b90236eec63d7d2bbd6b9a7700cfaaf/tumblr_mv9cg6brWl1sbetdio1_500.png#sprite", "is-original": false},
+{ "src": "https://66.media.tumblr.com/72890612351fc08a8e0ba406c09e604f/tumblr_o8aax0LuVL1qzzczko1_1280.png#sprite", "is-original": false},
+{ "src": "https://38.media.tumblr.com/4f2f0bb327d2da7a2870b559e9609973/tumblr_inline_mjs08cVz3C1qz4rgp.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/3b9125af8181432152bed0e656b9df7e/tumblr_mzrs6ojzbK1sbetdio3_500.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/d326926bfe49ba1ce812da9351320161/tumblr_n147k540dy1t5dv4do2_r1_500.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/bf1d427befd2e2d82ffe92b21c4e9d70/tumblr_msb8w8EvLw1sh1nwco1_500.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/f40c16d8a86728bf71059164d7b83cb5/tumblr_mqeouwM0Xb1ql9bpco2_500.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/ZkytnCf.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/0dd71c2feb1cbcfc7e44807875b9eb9e/tumblr_inline_mwsky24ESb1ra5gv7.png#sprite", "is-original": false}
     ],
     "natsumi": [
       "https://i.imgur.com/AjB3t8R.png#sprite",
@@ -1104,9 +1104,9 @@
       "https://abimon.org/dr/busts/nekomaru/12.png#sprite",
       "https://abimon.org/dr/busts/nekomaru/13.png#sprite",
       "https://abimon.org/dr/busts/nekomaru/14.png#sprite",
-      "https://66.media.tumblr.com/1b974aa3ab2aeea7a22442c3c1ce6f55/tumblr_inline_o6ui6g4E7V1qzytu7_540.png#sprite",
-      "https://68.media.tumblr.com/89b5540cb9c1a64d887a404138f92f59/tumblr_inline_o6ui6ldF1B1qzytu7_540.png#sprite",
-      "https://68.media.tumblr.com/a492053779e4a394e45bf4e7bbdcaa02/tumblr_mqej6gjibB1ql9bpco4_500.png#sprite"
+      { "src": "https://66.media.tumblr.com/1b974aa3ab2aeea7a22442c3c1ce6f55/tumblr_inline_o6ui6g4E7V1qzytu7_540.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/89b5540cb9c1a64d887a404138f92f59/tumblr_inline_o6ui6ldF1B1qzytu7_540.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/a492053779e4a394e45bf4e7bbdcaa02/tumblr_mqej6gjibB1ql9bpco4_500.png#sprite", "is-original": false}
     ],
     "peko": [
       "https://abimon.org/dr/busts/peko/00.png#sprite",
@@ -1130,9 +1130,9 @@
       "https://abimon.org/dr/busts/peko/18.png#sprite",
       "https://abimon.org/dr/busts/peko/19.png#sprite",
       "https://abimon.org/dr/busts/peko/20.png#sprite",
-      "https://66.media.tumblr.com/b75fb8df4ab34ca77104d9664d9a3b6a/tumblr_mqej6gjibB1ql9bpco5_500.png#sprite",
-      "https://i.imgur.com/7EO97vI.png#sprite",
-      "https://i.imgur.com/UIYzW8K.png#sprite"
+      { "src": "https://66.media.tumblr.com/b75fb8df4ab34ca77104d9664d9a3b6a/tumblr_mqej6gjibB1ql9bpco5_500.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/7EO97vI.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/UIYzW8K.png#sprite", "is-original": false}
     ],
     "ryouko": [
       "https://66.media.tumblr.com/24432973846098cb4a075f0cb531b5b3/tumblr_mr73qh9zf21sqhsiao1_r1_500.png#sprite",
@@ -1227,7 +1227,7 @@
       "https://abimon.org/dr/busts/sonia/25.png#sprite",
       "https://abimon.org/dr/busts/sonia/16.png#sprite",
       "https://abimon.org/dr/busts/sonia/17.png#sprite",
-      "https://i.imgur.com/GzqzsVP.png#sprite"
+      { "src": "https://i.imgur.com/GzqzsVP.png#sprite", "is-original": false}
     ],
     "teruteru": [
       "https://abimon.org/dr/busts/teruteru/00.png#sprite",
@@ -1252,9 +1252,9 @@
       "https://abimon.org/dr/busts/teruteru/19.png#sprite",
       "https://abimon.org/dr/busts/teruteru/20.png#sprite",
       "https://abimon.org/dr/busts/teruteru/21.png#sprite",
-      "https://68.media.tumblr.com/a95a2e0490691d969aac66cfc166915b/tumblr_mqej6gjibB1ql9bpco1_500.png#sprite",
-      "https://68.media.tumblr.com/59dd05ceb24136cdc14d344f5d45d4a3/tumblr_inline_o79bfp2JsY1qzytu7_540.png#sprite",
-      "https://66.media.tumblr.com/124e045360589c4d98d2a246a806de6f/tumblr_inline_o79bfsEBzS1qzytu7_540.png#sprite"
+      { "src": "https://68.media.tumblr.com/a95a2e0490691d969aac66cfc166915b/tumblr_mqej6gjibB1ql9bpco1_500.png#sprite", "is-original": false},
+      { "src": "https://68.media.tumblr.com/59dd05ceb24136cdc14d344f5d45d4a3/tumblr_inline_o79bfp2JsY1qzytu7_540.png#sprite", "is-original": false},
+      { "src": "https://66.media.tumblr.com/124e045360589c4d98d2a246a806de6f/tumblr_inline_o79bfsEBzS1qzytu7_540.png#sprite", "is-original": false}
     ],
     "touko": [
       "https://abimon.org/dr/busts/toko/00.png#sprite",
@@ -1376,12 +1376,12 @@
       "https://66.media.tumblr.com/5c5de1581ce117b8833212513d3be5fb/tumblr_inline_mw4yd3SwX01rsr201.png#sprite",
       "https://66.media.tumblr.com/8d166df38789ba8adff92b6fc7f33752/tumblr_inline_mw4ydb1FoD1rsr201.png#sprite",
       "https://66.media.tumblr.com/3bdb4e005b15dc5b03d25a3818ccaf60/tumblr_inline_mw4ydjWY641rsr201.png#sprite",
-      "https://i.imgur.com/6g9Znp9.png#sprite",
-      "https://i.imgur.com/vfhLGf9.png#sprite",
-      "https://abimon.org/dr/busts/yasuhiro/16_us.png#sprite",
-      "https://abimon.org/dr/busts/yasuhiro/17.png#sprite",
-      "https://66.media.tumblr.com/6d5cad66b116de976e8c572ed4837635/tumblr_inline_mw4zdu8IK21rsr201.png#sprite",
-      "https://68.media.tumblr.com/4e65980e884bcc919bbc9e066428353d/tumblr_n26pvxr8RK1rnveloo1_500.png#sprite"
+      { "src": "https://i.imgur.com/6g9Znp9.png#sprite", "is-original": false},
+{ "src": "https://i.imgur.com/vfhLGf9.png#sprite", "is-original": false},
+{ "src": "https://abimon.org/dr/busts/yasuhiro/16_us.png#sprite", "is-original": false},
+{ "src": "https://abimon.org/dr/busts/yasuhiro/17.png#sprite", "is-original": false},
+{ "src": "https://66.media.tumblr.com/6d5cad66b116de976e8c572ed4837635/tumblr_inline_mw4zdu8IK21rsr201.png#sprite", "is-original": false},
+{ "src": "https://68.media.tumblr.com/4e65980e884bcc919bbc9e066428353d/tumblr_n26pvxr8RK1rnveloo1_500.png#sprite", "is-original": false}
     ],
     "yasuke": [
       "https://68.media.tumblr.com/0993d6c6353ddd5d93012a21fc94663a/tumblr_inline_o76ta2JTvh1qzytu7_540.png#sprite"
