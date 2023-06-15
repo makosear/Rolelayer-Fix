@@ -301,7 +301,7 @@
 	var siteTable = document.getElementById('siteTable');
     if (siteTable) {
         var buttonCt = document.createElement('buttonCt');
-        buttonCt.textContent = 'Go to #ct';
+        buttonCt.textContent = 'Hide Pink Blood on the Clocktower comments';
         buttonCt.onclick = function() {
             window.location.href = 'https://www.reddit.com/r/DanganRoleplay/comments/#ct';
         };
