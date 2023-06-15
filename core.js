@@ -297,4 +297,12 @@
 		"GET",
 		location.origin + location.pathname + ".json"
 	);
+
+	if (window.location.href.endsWith('#ct')) {
+        let elements = document.getElementsByClassName('linkflair-pbotc');
+        for (let i = 0; i < elements.length; i++) {
+            elements[i].style.display = 'none';
+        }
+    }
 })(window.DRreddit, document);
+
