@@ -298,6 +298,16 @@
 		location.origin + location.pathname + ".json"
 	);
 
+	var siteTable = document.getElementById('siteTable');
+    if (siteTable) {
+        var buttonCt = document.createElement('buttonCt');
+        buttonCt.textContent = 'Go to #ct';
+        buttonCt.onclick = function() {
+            window.location.href = 'https://www.reddit.com/r/DanganRoleplay/comments/#ct';
+        };
+        siteTable.parentNode.insertBefore(buttonCt, siteTable);
+    }
+
 	if (window.location.href.endsWith('#ct')) {
         let elements = document.getElementsByClassName('linkflair-pbotc');
         for (let i = 0; i < elements.length; i++) {
