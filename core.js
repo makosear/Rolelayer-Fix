@@ -308,28 +308,6 @@
         siteTable.parentNode.insertBefore(buttonCt, siteTable);
     }
 
-	/*
-	if (window.location.href.endsWith('#ct')) {
-        let elements = document.getElementsByClassName('linkflair-pbotc');
-        for (let i = 0; i < elements.length; i++) {
-            elements[i].style.display = 'none';
-        }
-    } */
-
-	/*
-	var observer = new MutationObserver(function(mutations) {
-        if (window.location.href.endsWith('#ct')) {
-            let elements = document.getElementsByClassName('linkflair-pbotc');
-            for (let i = 0; i < elements.length; i++) {
-                elements[i].style.display = 'none';
-            }
-        }
-    });
-	
-
-    observer.observe(document.body, { childList: true, subtree: true });
-	*/
-
 	function hideElements() {
         if (window.location.href.endsWith('#ct')) {
             let elements = document.getElementsByClassName('linkflair-pbotc');
