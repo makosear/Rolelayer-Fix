@@ -321,6 +321,40 @@
     observer.observe(document.body, { childList: true, subtree: true });
 
     window.addEventListener('hashchange', hideElements);
+
+		/*
+	chrome.webRequest.onBeforeRequest.addListener(
+		function(details) {
+		  const oldUrl = details.url;
+		  const regex = /^https:\/\/r-drrp\.appspot\.com\/characters\/(.*)\/bust_(.*)\.png#sprite$/;
+		  const match = oldUrl.match(regex);
+	  
+		  if (match) {
+			const character = match[1];
+			const number = match[2];
+			const newUrl = `https://ik.imagekit.io/drrp/sprites/${character}/${number}.png`;
+			return {redirectUrl: newUrl};
+		  }
+		},
+		{urls: ["<all_urls>"]},
+		["blocking"]
+	  );	  */
+
+	  var observer = new MutationObserver(function(mutations) {
+        var images = document.getElementsByTagName('img');
+        var regex = /^https:\/\/r-drrp\.appspot\.com\/characters\/(.*)\/bust_(.*)\.png#sprite$/;
+
+        for (var i = 0; i < images.length; i++) {
+            var match = images[i].src.match(regex);
+            if (match) {
+                var character = match[1];
+                var number = match[2];
+                images[i].src = `https://ik.imagekit.io/drrp/sprites/${character}/${number}.png`;
+            }
+        }
+    });
+
+    observer.observe(document.body, { childList: true, subtree: true });
 	
 })(window.DRreddit, document);
 
