@@ -309,7 +309,7 @@
             window.location.href = 'https://www.reddit.com/r/DanganRoleplay/comments/#ct';
         };
 		buttonPb.onclick = function() {
-			windows.location.href = 'https://www.reddit.com/r/DanganRoleplay/comments/#pbotc';
+			window.location.href = 'https://www.reddit.com/r/DanganRoleplay/comments/#pbotc';
 		}
         siteTable.parentNode.insertBefore(buttonCt, siteTable);
 		siteTable.parentNode.insertbefore(buttonPb, sitetable);
