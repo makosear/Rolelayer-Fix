@@ -323,19 +323,6 @@
             }
         }
 
-		/*
-		if (window.location.href.endsWith('#pbotc')) {
-			let elements = document.getElementsByClassName('linkflair-trial');
-            for (let i = 0; i < elements.length; i++) {
-                elements[i].style.display = 'none';
-            }
-
-			let elements = document.getElementsByClassName('linkflair-sidetrial');
-            for (let i = 0; i < elements.length; i++) {
-                elements[i].style.display = 'none';
-            }
-		} */
-
 		if (window.location.href.endsWith('#pbotc')) {
 			['linkflair-trial', 'linkflair-sidetrial', 'linkflair-expetrial'].forEach(className => {
 				Array.from(document.getElementsByClassName(className)).forEach(el => el.style.display = 'none');
