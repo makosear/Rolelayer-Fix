@@ -572,7 +572,7 @@ label.rlvisible {
     border-radius: 50%;
   }
 
-  buttonCt {
+  buttonCt, buttonGb {
     margin-left: 32px!important;
 
 	box-shadow:inset 0px 1px 0px 0px #ffffff;
@@ -588,11 +588,42 @@ label.rlvisible {
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffffff;
 }
-buttonCt:hover {
+buttonCt:not(.in-page):hover, buttonGb:hover {
 	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
 	background-color:#f6f6f6;
 }
-buttonCt:active {
+buttonCt:not(.in-page):active, buttonGb:active {
 	position:relative;
 	top:1px;
+}
+
+
+buttonPb {
+    margin-left: 32px!important;
+
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-size: small;
+	font-weight:bold;
+	padding: 6px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+buttonPb:not(.in-page):hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+buttonPb:not(.in-page):active {
+	position:relative;
+	top:1px;
+}
+
+.in-page {
+    cursor: not-allowed!important;
+    opacity: 0.7;
 }

@@ -304,7 +304,7 @@
         var buttonCt = document.createElement('buttonCt');
 		var buttonPb = document.createElement('buttonPb');
         buttonCt.textContent = 'Hide Pink Blood on the Clocktower comments';
-		buttonPb.textContent = 'Hide Class Trial Comments';
+		buttonPb.textContent = 'Hide Class Trial comments';
         buttonCt.onclick = function() {
             window.location.href = 'https://www.reddit.com/r/DanganRoleplay/comments/#ct';
         };
@@ -312,11 +312,27 @@
 			window.location.href = 'https://www.reddit.com/r/DanganRoleplay/comments/#pbotc';
 		}
         siteTable.parentNode.insertBefore(buttonCt, siteTable);
-		siteTable.parentNode.insertbefore(buttonPb, sitetable);
+		siteTable.parentNode.insertBefore(buttonPb, siteTable);
     }
 
+	if (window.location.href.endsWith('#ct') || window.location.href.endsWith('#pbotc')) {
+		// buttonGb is for 'going back' lol
+		let buttonGb = document.createElement('buttonGb');
+		buttonGb.textContent = 'Show all messages'
+		buttonGb.onclick = function() {
+			window.location.href = 'https://www.reddit.com/r/DanganRoleplay/comments/';
+		};
+		siteTable.parentNode.insertBefore(buttonGb, siteTable);
+  }
+	
+	  
+
 	function hideElements() {
+		let buttonCt = document.getElementsByTagName('buttonCt')[0];
+		let buttonPb = document.getElementsByTagName('buttonPb')[0];
         if (window.location.href.endsWith('#ct')) {
+			buttonCt.classList.add('in-page');
+			buttonCt.href = '';
             let elements = document.getElementsByClassName('linkflair-pbotc');
             for (let i = 0; i < elements.length; i++) {
                 elements[i].style.display = 'none';
@@ -324,6 +340,8 @@
         }
 
 		if (window.location.href.endsWith('#pbotc')) {
+			buttonPb.classList.add('in-page');
+			buttonPb.href = '';
 			['linkflair-trial', 'linkflair-sidetrial', 'linkflair-expetrial'].forEach(className => {
 				Array.from(document.getElementsByClassName(className)).forEach(el => el.style.display = 'none');
 			});
@@ -331,9 +349,12 @@
     }
 
     var observer = new MutationObserver(hideElements);
+	
     observer.observe(document.body, { childList: true, subtree: true });
+	
 
     window.addEventListener('hashchange', hideElements);
+	
 	
 })(window.DRreddit, document);
 
