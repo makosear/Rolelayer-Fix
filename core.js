@@ -298,13 +298,21 @@
 		location.origin + location.pathname + ".json"
 	);
 
+	var siteTable = document.getElementById('siteTable');
+
     if (window.location.href.endsWith('DanganRoleplay/comments/')) {
         var buttonCt = document.createElement('buttonCt');
+		var buttonPb = document.createElement('buttonPb');
         buttonCt.textContent = 'Hide Pink Blood on the Clocktower comments';
+		buttonPb.textContent = 'Hide Class Trial Comments';
         buttonCt.onclick = function() {
             window.location.href = 'https://www.reddit.com/r/DanganRoleplay/comments/#ct';
         };
+		buttonPb.onclick = function() {
+			windows.location.href = 'https://www.reddit.com/r/DanganRoleplay/comments/#pbotc';
+		}
         siteTable.parentNode.insertBefore(buttonCt, siteTable);
+		siteTable.parentNode.insertbefore(buttonPb, sitetable);
     }
 
 	function hideElements() {
@@ -314,6 +322,25 @@
                 elements[i].style.display = 'none';
             }
         }
+
+		/*
+		if (window.location.href.endsWith('#pbotc')) {
+			let elements = document.getElementsByClassName('linkflair-trial');
+            for (let i = 0; i < elements.length; i++) {
+                elements[i].style.display = 'none';
+            }
+
+			let elements = document.getElementsByClassName('linkflair-sidetrial');
+            for (let i = 0; i < elements.length; i++) {
+                elements[i].style.display = 'none';
+            }
+		} */
+
+		if (window.location.href.endsWith('#pbotc')) {
+			['linkflair-trial', 'linkflair-sidetrial', 'linkflair-expetrial'].forEach(className => {
+				Array.from(document.getElementsByClassName(className)).forEach(el => el.style.display = 'none');
+			});
+		}
     }
 
     var observer = new MutationObserver(hideElements);
