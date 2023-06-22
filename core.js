@@ -298,8 +298,7 @@
 		location.origin + location.pathname + ".json"
 	);
 
-	var siteTable = document.getElementById('siteTable');
-    if (siteTable) {
+    if (window.location.href.endsWith('DanganRoleplay/comments/')) {
         var buttonCt = document.createElement('buttonCt');
         buttonCt.textContent = 'Hide Pink Blood on the Clocktower comments';
         buttonCt.onclick = function() {
