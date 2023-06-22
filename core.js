@@ -308,11 +308,11 @@
 	}
 
 	var siteTable = document.getElementById('siteTable');
+	let isButton = false;
 
-    if (window.location.href.endsWith('DanganRoleplay/comments/')) {
+    if (window.location.href.endsWith('DanganRoleplay/comments/') || window.location.href.endsWith('#ct') || window.location.href.endsWith('#pbotc')) {
         var buttonCt = document.createElement('buttonCt');
 		var buttonPb = document.createElement('buttonPb');
-		let isButton = false;
 		let buttonGb = createButton();
         buttonCt.textContent = 'Hide Pink Blood on the Clocktower comments';
 		buttonPb.textContent = 'Hide Class Trial comments';
@@ -337,6 +337,7 @@
 	if (window.location.href.endsWith('#ct') || window.location.href.endsWith('#pbotc')) {
 		let buttonGb = createButton();
 		siteTable.parentNode.insertBefore(buttonGb, siteTable);
+		isButton = true;
 	}	  
 	  
 	function hideElements() {
