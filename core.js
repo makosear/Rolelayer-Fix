@@ -298,35 +298,47 @@
 		location.origin + location.pathname + ".json"
 	);
 
+	function createButton() {
+		let buttonGb = document.createElement('buttonGb');
+		buttonGb.textContent = 'Show all messages';
+		buttonGb.onclick = function() {
+		  window.location.href = 'https://www.reddit.com/r/DanganRoleplay/comments/';
+		};
+		return buttonGb;
+	}
+
 	var siteTable = document.getElementById('siteTable');
 
     if (window.location.href.endsWith('DanganRoleplay/comments/')) {
         var buttonCt = document.createElement('buttonCt');
 		var buttonPb = document.createElement('buttonPb');
+		let isButton = false;
+		let buttonGb = createButton();
         buttonCt.textContent = 'Hide Pink Blood on the Clocktower comments';
 		buttonPb.textContent = 'Hide Class Trial comments';
         buttonCt.onclick = function() {
             window.location.href = 'https://www.reddit.com/r/DanganRoleplay/comments/#ct';
+			if (isButton == false) {
+			siteTable.parentNode.insertBefore(buttonGb, siteTable);
+			isButton == true;
+			}
         };
 		buttonPb.onclick = function() {
 			window.location.href = 'https://www.reddit.com/r/DanganRoleplay/comments/#pbotc';
+			if (isButton == false) {
+				siteTable.parentNode.insertBefore(buttonGb, siteTable);
+				isButton == true;
+			}
 		}
         siteTable.parentNode.insertBefore(buttonCt, siteTable);
 		siteTable.parentNode.insertBefore(buttonPb, siteTable);
     }
-
-	if (window.location.href.endsWith('#ct') || window.location.href.endsWith('#pbotc')) {
-		// buttonGb is for 'going back' lol
-		let buttonGb = document.createElement('buttonGb');
-		buttonGb.textContent = 'Show all messages'
-		buttonGb.onclick = function() {
-			window.location.href = 'https://www.reddit.com/r/DanganRoleplay/comments/';
-		};
-		siteTable.parentNode.insertBefore(buttonGb, siteTable);
-  }
-	
 	  
-
+	if (window.location.href.endsWith('#ct') || window.location.href.endsWith('#pbotc')) {
+		let buttonGb = createButton();
+		siteTable.parentNode.insertBefore(buttonGb, siteTable);
+	}	  
+	  
 	function hideElements() {
 		let buttonCt = document.getElementsByTagName('buttonCt')[0];
 		let buttonPb = document.getElementsByTagName('buttonPb')[0];
